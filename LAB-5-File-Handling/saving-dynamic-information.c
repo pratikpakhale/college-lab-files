@@ -36,9 +36,10 @@ int add_data(char name[], int acc_no, float balance){
   FILE *fp;
   fp = fopen("data.txt", "a");
 
-  fputs("Customer: ", fp);
-  fputs(name, fp);
-  fputs("\n", fp);
+  // fputs("Customer: ", fp);
+  // fputs(name, fp);
+  // fputs("\n", fp);
+  fprintf(fp, "Customer Name: %s\n", name);
   fputs("Account Number: ",fp);
   fprintf(fp, "%d", acc_no);
   fputs("\n",fp);

@@ -1,0 +1,16 @@
+Customer: pratik
+Account Number: 1234
+Balance: 90.000000
+
+Customer: aditya
+Account Number: 2345
+Balance: 90.000000
+
+Customer: ashish
+Account Number: 2356
+Balance: 9.000000
+
+Customer Name: pratik
+Account Number: 1234
+Balance: 12.000000
+
